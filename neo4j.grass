@@ -14,7 +14,7 @@ relationship {
   padding: 3px;
 }
 
-node.Team {
+node.TeamEvent {
   color: #00e5ff;
   border-color: #00b8d4;
   caption: '{id}';
@@ -27,13 +27,8 @@ node.Event {
   border-color: #ff1744;
 }
 
-node.Match {
+node.Qual {
   color: #1de9b6;
   border-color: #00bfa5;
   caption: 'Q{id}';
-}
-
-node.Two {
-  color: purple;
-  }
-  
+}  
