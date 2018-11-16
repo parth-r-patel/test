@@ -1,0 +1,34 @@
+node {
+  color: #263268
+  border-color: #37474f;
+  border-width: 3px;
+  caption: '{id}';
+  font-size: 11px;
+  text-color-internal: black;
+}
+
+relationship {
+  color: #78909c;
+  shaft-width: 5px;
+  font-size: 10px;
+  padding: 3px;
+}
+
+node.Team {
+  color: #00e5ff;
+  border-color: #00b8d4;
+  caption: '{id}';
+}
+
+node.Event {
+  diameter: 55px;
+  color: #ff5252;
+  caption: '{id}';
+  border-color: #ff1744;
+}
+
+node.Match {
+  color: #1de9b6;
+  border-color: #00bfa5;
+  caption: 'Q{id}';
+}
