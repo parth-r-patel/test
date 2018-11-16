@@ -32,3 +32,8 @@ node.Match {
   border-color: #00bfa5;
   caption: 'Q{id}';
 }
+
+node.Two {
+  color: purple;
+  }
+  
